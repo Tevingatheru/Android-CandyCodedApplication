@@ -93,9 +93,6 @@ public class MainActivity extends AppCompatActivity {
         Intent infoIntent = new Intent(MainActivity.this, InfoActivity.class);
         startActivity(infoIntent);
 
-        DetailActivity detailActivity = new DetailActivity();
-        detailActivity.createShareIntent();
-
         return super.onOptionsItemSelected(item);
     }
 

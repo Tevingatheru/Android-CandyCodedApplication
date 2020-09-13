@@ -70,16 +70,30 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     /**
-     * This method
+     * This method overrides method in {@link MainActivity}
+     * and runs on method
+     * @see #createShareIntent()
+     *
+     * @param item instance of {@link MenuItem}
+     * @return a boolean
      */
-    public void createShareIntent() {
-        String intent = Intent.ACTION_SEND;
-        Intent shareIntent = new Intent(intent);
-        shareIntent.setType("text/plain");
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        createShareIntent();
+        return super.onOptionsItemSelected(item);
+    }
 
-        intent = Intent.EXTRA_TEXT;
+    /**
+     * This method create an {@link Intent}
+     * The {@link Intent} is action ACTION_SEND,
+     * has type set to text/plain
+     */
+    private void createShareIntent() {
+        Intent shareIntent = new Intent(Intent.ACTION_SEND);
+        shareIntent.setType("text/plain");
         String stringShareIntent = SHARE_DESCRIPTION + mCandyImageUrl + HASHTAG_CANDYCODED;
-        shareIntent.putExtra(intent, stringShareIntent);
+
+        shareIntent.putExtra(Intent.EXTRA_TEXT, stringShareIntent);
         startActivity(shareIntent);
     }
 }
