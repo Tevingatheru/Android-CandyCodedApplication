@@ -44,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_XL_API_29" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-10-31T14:03:56.773Z" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.5.1" />
     <property name="show.do.not.ask.upgrade.gradle.plugin.version" value="3.5.1" />
@@ -127,9 +128,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1245" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1599999143892" />
+    <state x="1020" y="283" key="IDE.errors.dialog" timestamp="1600000688669">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1020" y="283" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1600000688669" />
     <state x="1032" y="273" key="Vcs.Push.Dialog.v2" timestamp="1599998734986">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1032" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599998734986" />
+    <state x="1173" y="256" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599999512269">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1173" y="256" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599999512269" />
+    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1599999844664">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599999844664" />
   </component>
 </project>
