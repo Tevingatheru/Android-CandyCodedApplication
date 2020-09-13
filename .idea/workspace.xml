@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b173bc2b-39f7-4ae2-9ea6-ecc7e816875b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,22 +161,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1245" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1599999143892" />
-    <state width="916" height="297" key="GridCell.Tab.0.bottom" timestamp="1600006758911">
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom" timestamp="1600008845678">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="916" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600006758911" />
-    <state width="916" height="297" key="GridCell.Tab.0.center" timestamp="1600006758911">
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600008845678" />
+    <state width="1877" height="297" key="GridCell.Tab.0.center" timestamp="1600008845678">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="916" height="297" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600006758911" />
-    <state width="916" height="297" key="GridCell.Tab.0.left" timestamp="1600006758911">
+    <state width="1877" height="297" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600008845678" />
+    <state width="1877" height="297" key="GridCell.Tab.0.left" timestamp="1600008845677">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="916" height="297" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600006758911" />
-    <state width="916" height="297" key="GridCell.Tab.0.right" timestamp="1600006758911">
+    <state width="1877" height="297" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600008845677" />
+    <state width="1877" height="297" key="GridCell.Tab.0.right" timestamp="1600008845678">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="916" height="297" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600006758911" />
+    <state width="1877" height="297" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600008845678" />
     <state x="1020" y="283" key="IDE.errors.dialog" timestamp="1600000688669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -185,6 +185,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1032" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599998734986" />
+    <state x="1136" y="272" width="607" height="536" key="find.popup" timestamp="1600007419398">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1136" y="272" width="607" height="536" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1600007419398" />
     <state x="1173" y="256" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599999512269">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

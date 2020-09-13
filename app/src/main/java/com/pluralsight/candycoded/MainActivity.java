@@ -22,6 +22,8 @@ import com.google.gson.GsonBuilder;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.TextHttpResponseHandler;
 
+import java.lang.reflect.Method;
+
 import cz.msebera.android.httpclient.Header;
 
 
@@ -90,6 +92,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent infoIntent = new Intent(MainActivity.this, InfoActivity.class);
         startActivity(infoIntent);
+
+        DetailActivity detailActivity = new DetailActivity();
+        detailActivity.createShareIntent();
 
         return super.onOptionsItemSelected(item);
     }
