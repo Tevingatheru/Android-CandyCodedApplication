@@ -28,8 +28,10 @@ public class InfoActivity extends AppCompatActivity {
     }
 
     /**
-     * This method creates a Uri and passes it as an
-     * {@link Intent} parameter
+     * This method creates a Uri and passes it as a parameter in an
+     * {@link Intent}.
+     * Then Starts an activity if @see #getPackageManager is not null
+     *
      * @param view an instance of {@link View}
      */
     public void createMapIntent(View view) {
@@ -41,7 +43,16 @@ public class InfoActivity extends AppCompatActivity {
         }
     }
 
-    // ***
-    // TODO - Task 3 - Launch the Phone Activity
-    // ***
+    /**
+     * This method will attach to a click view.
+     * Create an intent and sets data
+     * @param view instance {@link View}
+     */
+    public void createPhoneIntent(View view) {
+
+        String stringIntent = Intent.ACTION_DIAL;
+        Intent intent = new Intent(stringIntent);
+        intent.setData(Uri.parse("tel:0123456789"));
+        startActivity(intent);
+    }
 }
